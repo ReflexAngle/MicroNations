@@ -1,0 +1,21 @@
+body{
+background: gray;
+}
+#title{
+border-width: 5;
+border-color: white;
+border-style: solid;
+
+color: white;
+background-color: black;
+}
+table, th, td{
+color: white;
+border: white solid;
+border-width: 10;
+}
+#nav{
+border-width: 2;
+border-color: white;
+border-style: solid;
+}
