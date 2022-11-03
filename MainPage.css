@@ -1,21 +1,66 @@
 body{
 background: gray;
+    font-size: 16px;
 }
 #title{
-border-width: 5;
-border-color: white;
-border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    text-align: center;
 
-color: white;
-background-color: black;
+    color: white;
+    background-color: black;
 }
 table, th, td{
-color: white;
-border: white solid;
-border-width: 10;
+    color: white;
+    border: white solid;
+    border-width: 2px;
+    text-align: center;
+    margin: auto;
 }
 #nav{
-border-width: 2;
-border-color: white;
-border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+
+}
+#goMain{
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+#goAbout{
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+#goFormer{
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+#goWhat{
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    color: white;
 }
