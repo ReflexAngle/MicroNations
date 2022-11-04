@@ -1,1 +1,7 @@
-alert("Welcome to my website")
+
+function aMessage(){
+    //alert("Welcome to my website")
+
+}
+
+aMessage()

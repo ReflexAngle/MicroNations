@@ -16,6 +16,7 @@ table, th, td{
     border: 2px solid white;
     text-align: center;
     margin: auto;
+
 }
 #nav{
     border-width: 2px;
@@ -42,6 +43,7 @@ table, th, td{
     margin: auto;
     background-color: black;
     color: white;
+
 }
 #goFormer{
     border-width: 2px;
@@ -68,3 +70,11 @@ table, th, td{
 }
 #spinout{
 margin: fill}
+
+tr{
+    height: 100px;
+    width: 100px;
+}
+#inputs{
+    display: flex;
+}
