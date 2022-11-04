@@ -4,11 +4,12 @@
     <link rel="stylesheet" href="MainPage.css">
     <meta charset="UTF-8">
     <title>Micro Nation Index</title>
+    <script src="hello.js"></script>
 </head>
 <body>
 <h1 id="title">Micro Nation Index</h1>
 <a href=""></a>
-<!--tables to hold information like flags and links to ather areas-->
+<!--tables to hold information like flags and links to other areas-->
 <form>
     <!--<select>
       <option value="1">Micro nation list</option>
@@ -19,13 +20,16 @@
 
     <!--<ul id="nav">
     </ul>-->
-        <div style="clear: both">
+        <div id="inputs" style="clear: both">
             <!--<h3 id="goMain"><a href="MainPage.html">Nation List</a></h3>
             <h3 id="goAbout"><a href="AboutTheSite.html">About</a></h3>-->
-            <input id="goAbout" type="submit" value="About">
-            <input id="goMain" type="submit" value="Nation List">
-            <input id="goFormer" type="submit" value="Former Nations">
-            <input id="goWhat" type="submit" value="What is a micro nation">
+            <!--sends you to other areas of the website-->
+            <span id="spinout">
+                <a href="AboutTheSite.html"><input id="goAbout" type="submit" value="About"/></a>
+                <input id="goMain" type="submit" value="Nation List">
+                <input id="goFormer" type="submit" value="Former Nations">
+                <input id="goWhat" type="submit" value="What is a micro nation">
+            </span>
         </div>
     <hr />
 

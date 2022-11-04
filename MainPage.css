@@ -13,8 +13,7 @@ background: gray;
 }
 table, th, td{
     color: white;
-    border: white solid;
-    border-width: 2px;
+    border: 2px solid white;
     text-align: center;
     margin: auto;
 }
@@ -64,3 +63,8 @@ table, th, td{
     background-color: black;
     color: white;
 }
+#inputs{
+    margin: auto;
+}
+#spinout{
+margin: fill}
