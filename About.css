@@ -1,7 +1,8 @@
 body{
 background: gray;
 }
-
+/*Keep in mind that these elements are being
+used in many different HTML documents*/
 #AboutTitle{
 border-width: 5px;
 border-color: white;
@@ -11,10 +12,21 @@ background-color: black;
 
 color: white;
 }
+#startTitle{
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    background-color: black;
+    text-align: center;
+
+    color: white;
+}
 
 p{
 color:white
 }
+/*used for the buttons on the top of each
+HTML page*/
 #goMain{
     border-width: 2px;
     border-color: white;
