@@ -7,10 +7,76 @@ border-width: 5px;
 border-color: white;
 border-style: solid;
 background-color: black;
+    text-align: center;
 
 color: white;
 }
 
 p{
 color:white
+}
+#goMain{
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+#goAbout{
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    color: white;
+    height: 30px;
+
+}
+#goFormer{
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+#goWhat {
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+#goStart {
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    width: 20%;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+#inputs{
+    display: flex;
+    margin: -20px auto auto;
+}
+#github{
+    position: absolute;
+    bottom: 0;
+
 }

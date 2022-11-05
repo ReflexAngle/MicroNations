@@ -28,7 +28,7 @@ table, th, td{
     border-width: 2px;
     border-color: white;
     border-style: solid;
-    width: 25%;
+    width: 20%;
     text-align: center;
     margin: auto;
     background-color: black;
@@ -39,7 +39,7 @@ table, th, td{
     border-width: 2px;
     border-color: white;
     border-style: solid;
-    width: 25%;
+    width: 20%;
     text-align: center;
     margin: auto;
     background-color: black;
@@ -51,7 +51,7 @@ table, th, td{
     border-width: 2px;
     border-color: white;
     border-style: solid;
-    width: 25%;
+    width: 20%;
     text-align: center;
     margin: auto;
     background-color: black;
@@ -62,7 +62,18 @@ table, th, td{
     border-width: 2px;
     border-color: white;
     border-style: solid;
-    width: 25%;
+    width: 20%;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+#goStart {
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    width: 20%;
     text-align: center;
     margin: auto;
     background-color: black;
@@ -70,8 +81,7 @@ table, th, td{
     height: 30px;
 }
 #inputs{
-    margin: auto;
-    margin-top: -20px;
+    margin: -20px auto auto;
 }
 #spinout{
 margin: fill}
@@ -83,3 +93,8 @@ tr{
 #inputs{
     display: flex;
 }
+#github{
+     position: page;
+     bottom: 0;
+ }
+
