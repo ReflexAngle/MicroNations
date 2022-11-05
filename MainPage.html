@@ -20,11 +20,11 @@
             <script src="LinkTo.js"></script>
 
 
-            <input id="goAbout" type="submit" value="About"/>
-            <input id="goMain" type="submit" value="Nation List">
-            <input id="goFormer" type="submit" value="Former Nations">
-            <input id="goWhat" type="submit" value="What is a micro nation">
-            <input id="goStart" type="submit" value="How to start you country"/>
+            <input id="goAbout" onclick="aboutRedirect()" type="button" value="About"/>
+            <input id="goMain" onclick="mainRedirect()" type="button" value="Nation List">
+            <input id="goFormer" onclick="formerRedirect()" type="button" value="Former Nations">
+            <input id="goWhat" onclick="whatRedirect()" type="button" value="What is a micro nation">
+            <input id="goStart" onclick="startRedirect()" type="button" value="How to start you country"/>
 
         </div>
     <hr/>
@@ -102,7 +102,7 @@
     </table>
     <footer>
         <a id="github" href="https://github.com/ReflexAngle">
-            <img src="download.png" alt="github"></a>
+            <img src="download.png" alt="github" ></a>
     </footer>
 </form>
 <script src="hello.js"></script>
