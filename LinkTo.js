@@ -6,10 +6,10 @@ function mainRedirect() {
     window.location.href = "MainPage.html"
 }
 function formerRedirect() {
-    window.location.href = "https://www.geeksforgeeks.org/";
+    window.location.href = "FormerNations.html";
 }
 function whatRedirect() {
-    window.location.href = "https://www.geeksforgeeks.org/";
+    window.location.href = "WhatAreThey.html";
 }
 function startRedirect() {
     window.location.href = "StartYourCountry.html/";
