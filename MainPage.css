@@ -1,5 +1,5 @@
 body{
-background: gray;
+background: #646464;
     font-size: 16px;
 }
 #title{
@@ -35,6 +35,9 @@ table, th, td{
     color: white;
     height: 30px;
 }
+#goMain:hover{
+    background-color: #222222;
+}
 #goAbout{
     border-width: 2px;
     border-color: white;
@@ -46,6 +49,10 @@ table, th, td{
     color: white;
     height: 30px;
 
+
+}
+#goAbout:hover{
+    background-color: #222222;
 }
 #goFormer{
     border-width: 2px;
@@ -58,6 +65,9 @@ table, th, td{
     color: white;
     height: 30px;
 }
+#goFormer:hover{
+    background-color: #222222;
+}
 #goWhat{
     border-width: 2px;
     border-color: white;
@@ -69,6 +79,9 @@ table, th, td{
     color: white;
     height: 30px;
 }
+#goWhat:hover{
+    background-color: #222222;
+}
 #goStart {
     border-width: 2px;
     border-color: white;
@@ -79,6 +92,9 @@ table, th, td{
     background-color: black;
     color: white;
     height: 30px;
+}
+#goStart:hover{
+    background-color: #222222;
 }
 #inputs{
     margin: -20px auto auto;

@@ -1,5 +1,5 @@
 body{
-background: gray;
+background: #646464;
 }
 /*Keep in mind that these elements are being
 used in many different HTML documents*/
@@ -38,6 +38,9 @@ HTML page*/
     color: white;
     height: 30px;
 }
+#goMain:hover{
+    background-color: #222222;
+}
 #goAbout{
     border-width: 2px;
     border-color: white;
@@ -50,6 +53,9 @@ HTML page*/
     height: 30px;
 
 }
+#goAbout:hover{
+    background-color: #222222;
+}
 #goFormer{
     border-width: 2px;
     border-color: white;
@@ -60,6 +66,9 @@ HTML page*/
     background-color: black;
     color: white;
     height: 30px;
+}
+#goFormer:hover{
+    background-color: #222222;
 }
 #goWhat {
     border-width: 2px;
@@ -72,6 +81,9 @@ HTML page*/
     color: white;
     height: 30px;
 }
+#goWhat:hover{
+    background-color: #222222;
+}
 #goStart {
     border-width: 2px;
     border-color: white;
@@ -82,6 +94,9 @@ HTML page*/
     background-color: black;
     color: white;
     height: 30px;
+}
+#goStart:hover{
+    background-color: #222222;
 }
 #inputs{
     display: flex;

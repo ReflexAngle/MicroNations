@@ -12,9 +12,7 @@ function whatRedirect() {
     window.location.href = "WhatAreThey.html";
 }
 function startRedirect() {
-    window.location.href = "StartYourCountry.html/";
+    window.location.href = "StartYourCountry.html";
 }
-
-
 
 
