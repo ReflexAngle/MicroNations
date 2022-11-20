@@ -2,15 +2,28 @@ body{
 background: #646464;
     font-size: 16px;
 }
-#title{
-    border-width: 5px;
+body{
+    position: relative;
+}
+.title{
+    border-width: 5px !important;
     border-color: white;
     border-style: solid;
-    text-align: center;
+    text-align: center !important;
+
 
     color: white;
     background-color: black;
 }
+
+#TopElements{
+    'position: fixed;
+    background-color: black;
+    margin-top: auto;
+
+
+}
+
 table, th, td{
     color: white;
     border: 2px solid white;
