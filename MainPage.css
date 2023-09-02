@@ -112,8 +112,9 @@ table, th, td{
 #inputs{
     margin: -20px auto auto;
 }
-#spinout{
-margin: fill}
+/*#spinout{
+margin: fill
+}*/
 
 tr{
     height: 100px;
@@ -126,4 +127,7 @@ tr{
      position: page;
      bottom: 0;
  }
-
+.flex-container{
+    display: flex;
+    align-items: center;
+}
