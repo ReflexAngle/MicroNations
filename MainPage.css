@@ -127,7 +127,15 @@ tr{
      position: page;
      bottom: 0;
  }
-.flex-container{
+.flex-container {
     display: flex;
-    align-items: center;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+.title {
+    text-align: center; /* Center-align the text */
+}
+
+.title img {
+    vertical-align: middle; /* Vertically align the images with the text */
 }
