@@ -139,14 +139,28 @@ tr{
 .title img {
     vertical-align: middle; /* Vertically align the images with the text */
 }
-.Conch_history{
+.Conch_history, .Liberland_history{
     text-align: center;
 }
+.content-container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically align content */
+}
 .container{
-    width: 1000px;
+    width: 25%;
     height: auto;
     border: 1px solid #ccc;
     padding: 10px;
     background-color: white;
     margin: auto;
+    flex: 1;
+}
+.map_table {
+    width: 25%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the table horizontally */
+}
+
+.map_table td img {
+    max-width: 100%; /* Make the image fit within the cell */
+    height: auto; /* Maintain the aspect ratio */
 }
