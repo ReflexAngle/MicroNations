@@ -147,17 +147,19 @@ tr{
     align-items: center; /* Vertically align content */
 }
 .container{
-    width: 25%;
+    width: 100px;
     height: auto;
     border: 1px solid #ccc;
     padding: 10px;
     background-color: white;
     margin: auto;
+    margin-top: 0;
     flex: 1;
 }
 .map_table {
     width: 25%; /* Adjust the width as needed */
-    margin: 0 auto; /* Center the table horizontally */
+    margin: auto; /* Center the table horizontally */
+    margin-top: 0;
 }
 
 .map_table td img {
