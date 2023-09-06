@@ -126,6 +126,7 @@ tr{
 #github{
      position: page;
      bottom: 0;
+    left: 0;
  }
 .flex-container {
     display: flex;
