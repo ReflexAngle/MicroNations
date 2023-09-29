@@ -141,7 +141,7 @@ tr{
     vertical-align: middle; /* Vertically align the images with the text */
 }
 .Conch_history, .Liberland_history{
-    text-align: center;
+    /*text-align: center;*/
 }
 .content-container {
     display: flex; /* Use flexbox for layout */
@@ -158,7 +158,7 @@ tr{
     flex: 1;
 }
 .map_table {
-    width: 25%; /* Adjust the width as needed */
+    width: 15%; /* Adjust the width as needed */
     margin: auto; /* Center the table horizontally */
     margin-top: 0;
 }
@@ -167,3 +167,4 @@ tr{
     max-width: 100%; /* Make the image fit within the cell */
     height: auto; /* Maintain the aspect ratio */
 }
+
